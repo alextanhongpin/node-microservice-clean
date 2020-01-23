@@ -1,0 +1,25 @@
+{
+    "name": "node-microservices",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node_modules/.bin/nodemon index.mjs"
+    },
+    "keywords": [],
+    "author": "alextanhongpin <alextan220990@gmail.com>",
+    "license": "ISC",
+    "dependencies": {
+        "db-migrate": "^0.11.6",
+        "db-migrate-pg": "^1.0.0",
+        "koa": "^2.11.0",
+        "koa-bodyparser": "^4.2.1",
+        "koa-router": "^8.0.6",
+        "postgres": "^1.0.2",
+        "sql-migrations": "^1.0.6"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.2"
+    }
+}
